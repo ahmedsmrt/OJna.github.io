@@ -1,0 +1,1087 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Utility Classes */
+
+h1, h3, h4, h2 {
+    font-family: 'Special Elite', monospace;
+    text-shadow: -2px 2px 2px #2874A6;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.current {
+    border-radius: 2px;
+    background: #935116;
+
+}
+.current a {
+    border-bottom: 2px solid #D4AC0D;
+
+}
+
+.menu:hover {
+    border-radius: 1px;
+    background: #935116;
+    color: white;
+    z-index: 20;
+}
+
+.menu:hover a{
+    transition: .15s;
+    border-bottom: 2px solid #D4AC0D;
+    border-radius: 2px;
+
+}
+
+.btn-dark {
+    top:1rem;
+    position: relative;
+    font-family: 'Special Elite', monospace;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    background: #2874A6;
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .3s ease-in-out .0s;
+}
+
+.btn-dark:hover {
+    background: #222;
+    border: 2px #2874A6 solid;
+    color: #D4AC0D;
+    cursor: pointer;
+    
+}
+
+.segment {
+    width: 100%;
+    background-color: #222;
+    height: 1.1rem;
+}
+
+.clr {
+ clear: both;
+}
+
+.ht1 {
+    font-size: 3rem;
+    display: inline;
+    border-radius: 5px;
+}
+
+.ht1:hover {
+    text-shadow: -4px 4px 4px #222;
+    color: #5DADE2;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+/* Header */
+
+#land {
+    width: 100%;
+    height: 100vh;
+    background: url(/img/bg-image1.jpg) center center/cover fixed;
+}
+
+#c-land {
+    width: 100%;
+    height: 50vh;
+    background: url(/img/bg-contact.jpeg) center center/cover fixed;
+}
+
+.ht2:hover {
+    text-shadow: -4px 4px 4px #222;
+    color: #5DADE2;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.ht2 {
+    position: relative;
+    top: 11rem;
+    left: 5rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    border-radius: .4rem;
+}
+
+#logo {
+    padding: 1.2rem;
+    color: #ABB2B9;
+    float: left;
+    font-size: 1.5rem;
+}
+
+#logo a {
+    text-shadow: -1px 2px 2px #D4AC0D;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+
+#logo a span:hover {
+    font-size: 2rem;
+    color: #5DADE2;
+    transition: .4s;
+    transform: scale(1.5);
+}
+
+
+#welcome-mat {
+    padding-top: 17rem;
+}
+
+#welcome-mat a {
+    text-align: center;
+}
+
+/* Double Container Section */
+
+.double-cont {
+    height: 70vh;
+    display: flex;
+}
+
+.double-cont .c1 {
+    flex: 1;
+    display: flex;
+}
+.double-cont .c2 {
+    flex: 1;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.double-cont .c2 h3 {
+    color: #222;
+    text-align: center;
+    background:#2E86C1;
+    font-size: 3rem;
+    border-radius: 15px;
+}
+
+.double-cont .c2 p {
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+
+}
+.service-cont {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.service-cont h1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.service-cont:hover h1 {
+    color: white;
+}
+
+
+
+
+/* Navbar */
+
+#navbar {
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background: #222;
+    display: inline-block;
+    z-index: 10;
+    border-bottom-color: #5DADE2;
+    border-bottom-style: solid;
+    display: flex;
+    align-content: center;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+#navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#navbar .icon {
+    padding: 1rem;
+    display: none;
+    font: 900;
+    color: white;
+}
+
+
+
+/* Services */
+#services {
+    height: 100vh;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#solution {
+    height: 55vh;
+    background: url(/img/bg-service.jpeg) center center/cover fixed;
+}
+
+#solution h1 {
+    padding-top: 5%;
+}
+
+.s-content {
+    flex: 1;
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+}
+
+.s-list {
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+
+.s-list ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.s-list ul li {
+    color: whitesmoke;
+    font-size: 1rem;
+    transition: 1s;
+    padding: 1rem;
+}
+
+.s-list h2 {
+    padding-top: 1rem;
+}
+
+.s-list .s-1{
+    flex: 1;
+background: #222;
+}
+
+.s-list .s-1:hover {
+    background: url(/img/drywall.jpg) center center/cover;
+    transition: 1.2s;
+    border-radius: 5%;
+}
+.s-list .s-1:hover li {
+    font-size: 1.1rem;
+}
+
+.s-list .s-2{
+    flex: 1;
+background: #222
+}
+
+.s-list .s-2:hover {
+    background: url(/img/floor.jpg) center center/cover;
+    transition: 1.2s;
+    border-radius: 5%;
+}
+.s-list .s-2:hover li {
+    font-size: 1.1rem;
+}
+
+.s-list .s-3{
+    flex: 1;
+background: #222;
+}
+
+.s-list .s-3:hover {
+    background: url(/img/paint.jpg) center center/cover;
+    transition: 1.2s;
+    border-radius: 5%;
+    
+}
+
+.s-list .s-3:hover li {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.s-list .s-4{
+    flex: 1;
+background: #222;
+}
+
+.s-list .s-4:hover {
+    background: url(/img/Projects/Img-34.jpg) center center/cover;
+    transition: 1.2s;
+    border-radius: 5%;
+}
+
+.s-list .s-4:hover li {
+    font-size: 1.1rem;
+
+}
+
+.s-content h1 {
+    padding-top: 1rem;
+    font-size: 4rem;
+}
+
+.s-content i {
+    color: #B7950B;
+}
+
+.s-content p {
+    color: #ABB2B9;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+
+
+/* Gallery */
+#header {
+    background: url(/img/gallery-bg.jpg) center center/cover fixed;
+    width: 100%;
+    height: 55vh;
+    border-bottom: 5px solid #333;
+    box-sizing: border-box;
+}
+
+#header h1 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 4rem;
+}
+
+#sep-1 {
+   
+    height: 30vh;
+    background: url(/img/gallery-bg.jpg) center center/cover fixed;
+    border-bottom: 5px solid #333;
+
+}
+
+#sep-2 {
+   
+    height: 30vh;
+    background: url(/img/gallery-bg.jpg) center center/cover fixed;
+    border-bottom: 5px solid #333;
+
+
+}
+#sep-3 {
+
+    height: 30vh;
+    background: url(/img/gallery-bg.jpg) center center/cover fixed;
+    border-bottom: 5px solid #333;
+
+}
+
+#latest{
+    height: 100vh;
+}
+
+.projects {
+    height: 100vh;
+    border-bottom: 5px groove #222;
+}
+
+.p-info {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.p-info h3 {
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.p-info p {
+    line-height: 2rem;
+}
+
+#proj-2 {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+    border-left: 1px dashed black;
+}
+
+#proj-3 {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+#proj-4 {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+    border-left: 1px dashed black;
+}
+
+
+#project-contain {
+    padding-top: 0rem;
+    position: relative;
+    float: right;
+    width: 60%;
+    height: 100%;
+    border-left: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+#project-contain .project {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#project-contain .project::-webkit-scrollbar {
+    width: 17px;
+}
+ 
+#project-contain .project::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px black; 
+    background: #515A5A;
+    border-radius: 10px;
+}
+ 
+#project-contain .project::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #B7950B;
+    border: #2E86C1 1.5px solid;
+    -webkit-box-shadow: inset 0 0 6px ; 
+}
+
+#project-contain .project .p1-img {
+    border: 1px dashed black;
+    height: 30%;
+    margin: .5rem;
+    width: 93%;
+    border-radius: 2%;
+}
+
+#project-contain .project .p1-img:hover {
+    opacity: .88;
+    border: 2px dashed #B7950B;
+}
+
+#project-contain .project .i-1 {
+    background: url(/img/Projects/Bathroom/Img-2.jpg) center center/cover;
+    background-position: center cover;
+}
+#project-contain .project .i-2 {
+    background: url(/img/Projects/Bathroom/Img-3.jpg) center center/cover;
+}#project-contain .project .i-3 {
+    background: url(/img/Projects/Bathroom/Img-30.jpg) center center/cover;
+}#project-contain .project .i-4 {
+    background: url(/img/Projects/Bathroom/Img-33.jpg) center center/cover;
+}#project-contain .project .i-5 {
+    background: url(/img/Projects/Bathroom/Img-34.jpg) center center/cover;
+}#project-contain .project .i-6 {
+    background: url(/img/Projects/Bathroom/Img-41.jpg) center center/cover;
+}#project-contain .project .i-7 {
+    background: url(/img/Projects/Bathroom/Img-42.jpg) center center/cover;
+}#project-contain .project .i-8 {
+    background: url(/img/Projects/Bathroom/Img-43.jpg) center center/cover;
+}#project-contain .project .i-9 {
+    background: url(/img/Projects/Bathroom/Img-45.jpg) center center/cover;
+}#project-contain .project .i-10 {
+    background: url(/img/Projects/Bathroom/Img-46.jpg) center center/cover;
+}
+
+#project-contain #img-viewer {
+    margin: .3rem;
+    position: relative;
+    top: .2rem;
+    width: 70%;
+    height: 98%;    
+    border-radius: 3%;
+    border: 2px solid #1F618D;
+    
+}
+
+
+#project-contain #img-viewer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+
+
+/* About section */
+
+#about {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    border-bottom: 4px dashed #1A5276;
+    background: antiquewhite;
+    overflow: hidden;
+    display: flex;
+
+}
+
+#testimonials {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    border-bottom: 4px dashed #1A5276;
+    background: #222;
+    overflow: hidden;
+
+}
+
+#about p {
+    text-align: center;
+}
+
+.container1 {
+    height: 100%;
+}
+
+#about .container1 {
+    flex: 1;
+    padding: 4rem 2rem;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5rem;
+
+}
+
+#about .container1 h1 {
+    padding: 5rem ;
+    font-size: 5rem;
+}
+
+#about .container2 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: antiquewhite;
+    border-left: 2px dashed black;
+}
+
+.container2 .a-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2 .a-img #button {
+    position: relative;
+    height: 8.6%;
+    width: 8.5%;
+    transition: 1s; 
+    border-radius: 50%;
+    z-index: 1;
+  
+}
+.container2 .a-img #button #btn-h,
+.container2 .a-img #button #a-btn {
+    transition: 1s;
+}
+
+.container2 .a-img #button .bg-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: url(/img/about-img.jpg) center center/cover;
+    z-index: 1;
+    visibility: hidden;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+.container2 .a-img #button .bg-layer h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 2rem;
+    position: relative;
+}
+.container2 .a-img #button .bg-layer p {
+    color: whitesmoke;
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+
+.container2 .a-img #button i {
+    position: relative;
+    box-shadow: -.5px 1px 1px 1px #3498DB;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.container2 .a-img #button i:hover {
+    display: inline-block;
+    transition: .78s;
+    transform: rotate(360deg);
+    background: #D4AC0D ;
+}
+
+
+.a-img {
+    position: relative;
+    margin-top: 5%;
+    border-radius: .5rem;
+    border: 1px solid antiquewhite;
+    height: 12rem;
+    width: 100%;
+    padding: 0 .2rem;
+}
+
+.t1 .t-img {
+    float: left;
+    margin-top: 2%;
+    border-radius: 50%;
+    height: 10rem;
+    width: 28%;
+    border: 1px solid antiquewhite;
+}
+
+
+
+.t1 .t-info {
+    margin-top: 5%;
+    float: right;   
+    width: 70%;
+    background: #5DADE2;
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: -2px 2px 2px #9A7D0A;
+    
+}
+
+.pic2 .t-img {
+    float: right;
+    background: url(/img/person2.jpg) center center/cover;
+
+}
+
+.pic1 .t-img {
+    background: url(/img/person1.jpg) center center/cover;
+
+}
+
+.pic3 .t-img {
+    background: url(/img/person3.jpeg) center center/cover;
+
+}
+
+.pic2 .t-info {
+    float: left;
+    box-shadow: 2px 2px 2px #9A7D0A;
+
+}
+
+
+
+
+
+
+#testimonials .t1 {
+    float: left;
+    height: 100%;
+    width: 50%;
+    border-right: 4px dashed antiquewhite;
+    padding: 1rem 2rem;
+}
+
+#testimonials .t2 {
+    float: right;
+    height: 100%;
+    width: 50%;
+    padding: 1rem 2rem;
+}
+
+#testimonials .t2 h1 {
+    padding: 5rem ;
+    font-size: 5rem;
+    color: antiquewhite;
+    text-shadow: -4px 4px 4px #2E86C1;
+}
+
+#testimonials .t2 p {
+    color: whitesmoke;
+    line-height: 2rem;
+}
+
+
+/* Form */
+#f-section {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#f-section .c1 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+#f-section .c1 p {
+    font-family: 'Special Elite', monospace;
+    line-height: 2rem;
+}
+
+#f-section .c1 i {
+    padding-top: 1rem;
+}
+
+#f-section .c1 h3{
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+#f-section ul {
+    padding-top: 3rem;
+}
+
+#f-section ul li a {
+    color: #222;
+    text-decoration: none;
+    font-family: 'Special Elite', monospace;
+    line-height: 2rem;
+
+}
+
+#f-section ul li a:hover {
+    border-bottom: none;
+}
+
+#f-section ul li .fa-facebook:hover {
+    transform: scale(1.25);
+    color: #1A5276;
+    
+}
+
+#f-section ul li .fa-instagram:hover {
+    transform: scale(1.25);
+    text-transform: uppercase;
+    background: linear-gradient(to right, 	#feda75 0%, #d62976 100%, #962fbf 00%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#f-section .c1 ul li:nth-last-child(1) {
+    padding-right: .5rem;
+}
+
+#f-section .c1 ul li:nth-last-child(2) {
+    padding-left: .5rem;
+}
+
+
+#f-section ul li .fa-twitter:hover {
+    transform: scale(1.25);
+    color: #3498DB;
+}
+
+#f-section .c2 {
+    position: relative;
+    float: right;
+    width: 75%;
+    height: 100%;
+    background: #222;
+    padding-top: 4rem;
+    font-size: 1.5rem;
+}
+
+#contact-img {
+    position: relative;
+    left: 2rem;
+    float: left;
+    height: 75%;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 1px white dashed;
+    background: url(/img/phone.jpeg) center center/cover ;
+}
+
+#contact-img:hover {
+    opacity: .7;
+    border-color: goldenrod;
+}
+
+
+form {
+    margin-top: -2.5rem;
+    color: #909497;
+    height: 100%;
+    padding-left: 20rem;
+}
+
+.form-group {
+    padding: .5rem;
+}
+
+.form-group input{
+    width: 12rem;
+}
+
+
+
+.form-group label{
+    display: block;
+}
+
+.form-group label:hover {
+    color: #D4AC0D;
+}
+
+.f3 input {
+    width: 75%;
+}
+
+.f4 textarea {
+    width: 75%;
+    height: 5rem;
+}
+
+.f1 input{
+    width: 12rem;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.f1 .s1{
+    display: inline;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.f1 .s2 {
+    display: inline;
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 20%;
+}
+
+.btn {
+    margin: 1rem 25%;
+    width: 20%;
+    position: relative;
+    font-family: 'Special Elite', monospace;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    background: #2874A6;
+    color: whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .2s ease-in-out .0s;
+}
+
+.btn:hover {
+    background: #222;
+    border: 2px #2874A6 solid;
+    color: #D4AC0D;
+    cursor: pointer;
+    
+}
+
+
+/* Submission Page */
+
+#sub-page {
+    height: 80vh;
+    padding-top: 17rem;
+    background: url(../img/sub-img.jpg) center center/cover fixed;
+}
+
+.btn-sub {
+    width: 10rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    height: 45vh;
+    border:5px solid #222;
+}
+
+.f-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.box-footer {
+    text-align: center;
+    padding-top: 1rem;
+    float: left;
+    width: 25%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+.box-footer a {
+    text-decoration: none;
+    color: #E5E8E8;
+
+}
+
+.box-footer .a1 {
+    color: white;
+}
+
+.box-footer ul li a {
+    font-size: 1.1rem;
+}
+
+.box-footer ul {
+    list-style: none;
+
+}
+
+.fab {
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+#box-4 .fab {
+    color: #222;
+}
+
+
+.box-footer a i {
+    color: #196F3D;
+}
+
+.box-footer a i:hover {
+    transition: .4s;
+    color: #D4AC0D;
+    opacity: .75;
+}
+
+.box-footer .box-content a:hover {
+    transition: .5s;
+    color: #D4AC0D;
+    margin-left: 5px;
+    border-bottom: #D4AC0D 1.5px solid;
+}
+
+#box-1 {
+    background: url(/img/bg-image4.jpg) center center/cover fixed;
+}
+
+#box-2 {
+    background: url(/img/bg-image4.jpg) center center/cover fixed;
+
+}
+
+#box-3 {
+
+    background: url(/img/bg-image4.jpg) center center/cover fixed;
+}
+
+#box-4 {
+
+    background: url(/img/bg-image4.jpg) center center/cover fixed;
+}
+
+#box-4 ul li a:hover {
+    border-bottom: none;
+}
+
+#box-4 ul li .fa-facebook:hover {
+    transform: scale(1.25);
+    color: #1A5276;
+    
+}
+
+#box-4 ul li .fa-instagram:hover {
+    transform: scale(1.25);
+    text-transform: uppercase;
+    background: linear-gradient(to right, 	#feda75 0%, #d62976 100%, #962fbf 00%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#box-4 ul li:nth-child(5) {
+    padding-right: 1.2rem;
+}
+
+
+#box-4 ul li .fa-twitter:hover {
+    transform: scale(1.25);
+    color: #3498DB;
+}
+
+
+.copyright {
+    display: inline-block;
+    width: 100%;
+    background: #333;
+    color: #ABB2B9;
+    text-align: center;
+}
